@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html >
+<head>
+<link rel="stylesheet" href="dishes.css">
+<link rel="stylesheet" href="styleMainPage.css">
+
+
+
+
+
+<title>Dishes page</title>
+	<meta charset="UTF-8"/>
+</head>
+<body onload="sendChatGPT() ">
+	<header>
+		<img src="logo.png" alt="logo" id="logo">
+		
+		<div id="under-header"></div>
+
+	</header>
+		<h2 class="title">Dishes</h2>
+
+
+
+		<section class="doctors">
+			<div class="contant">
+				<button onclick="getDishDetails(this)" dishName="" id="b2" class="doctor">
+				<div class="imag">
+					<h3 id="d2"></h3>
+						</div>
+				</button>
+
+				<button onclick="getDishDetails(this)" dishName="" id="b3" class="doctor">
+					<div class="imag">
+						<h3 id="d3"></h3>
+							</div>
+					</button>
+	
+					<button onclick="getDishDetails(this)" dishName="" id="b4" class="doctor">
+						<div class="imag">
+							<h3 id="d4"></h3>
+								</div>
+						</button>
+
+
+				<button onclick="getDishDetails(this)" dishName="" id="b5" class="doctor">
+					<div class="imag">
+						<h3 id="d5"></h3>
+							</div>
+					</button>
+
+
+					<button onclick="getDishDetails(this)" dishName="" id="b6" class="doctor">
+						<div class="imag">
+							<h3 id="d6"></h3>
+								</div>
+						</button>
+
+						<button onclick="getDishDetails(this)" dishName="" id="b7" class="doctor">
+							<div class="imag">
+								<h3 id="d7"></h3>
+									</div>
+							</button>
+
+				
+			</div>
+
+		</section>
+
+
+	<footer>
+
+		<div class="foot">
+			<p>@2023 Taste of Saudi</p>
+		</div>
+
+	</footer>
+	<script src="script2.js"></script>
+	
+
+	<script>
+		function getDishDetails(e){
+			//window.location = "sel1.html"
+			//alert("hello")
+			//alert(e.getAttribute("dishName"));
+			dishname =e.getAttribute("dishName")
+			window.location = `sel1.html?dish=${dishname}`
+		}
+	</script>
+	
+
+</body>
+
+
+
+</html>

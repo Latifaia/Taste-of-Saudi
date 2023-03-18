@@ -1,0 +1,59 @@
+
+body{
+    background-image: url(output-onlinepngtools.png);
+}
+
+.title {
+    color:#79443B;
+    font-size: 4em;
+    margin-top: 22px;
+    text-align: center;
+    
+}
+
+
+.contant {
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    gap: 5em;
+    margin:auto;
+   
+}
+
+.doctor {
+    text-align: center;
+    border: #6e5534;
+    border-radius: 20px;
+    margin-left: 50%;
+    width:200px;
+    height: 80px;
+}
+    .doctor:hover {
+        box-shadow: 5px 10px 18px gray;
+    }
+
+
+
+    .name h3 {
+        color:#79443B;
+        font-size: 30px;
+        bottom: 3em;
+        text-align: center;
+    }
+#logo {
+    height: 130px;
+    position: absolute;
+    left: 0%;
+    margin-top: -12px;
+}
+
+.imag img{
+width: 250px;
+height: 200px;
+border-radius: 10px;
+text-align: center;
+padding-top: 5%;
+}
+
+
+
